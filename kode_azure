@@ -1,0 +1,2 @@
+installing azcopy on azure cli use the link > https://medium.com/@nayananandjha/how-to-install-azcopy-on-linux-b24e25692dc2
+azcopy copy https://devopsstorage28420.blob.core.windows.net/devops-blob-1614?sp=racwdli&st=2024-11-23T09:29:35Z&se=2024-11-23T17:29:35Z&spr=https&sv=2022-11-02&sr=c&sig=rw4NmleSmHkirfAj2trlH59qJvteRjXCNZ7pr7uByAk%3D /opt --recursive=true
