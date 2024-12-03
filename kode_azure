@@ -2,3 +2,4 @@ installing azcopy on azure cli use the link > https://medium.com/@nayananandjha/
 azcopy copy https://devopsstorage28420.blob.core.windows.net/devops-blob-1614?sp=racwdli&st=2024-11-23T09:29:35Z&se=2024-11-23T17:29:35Z&spr=https&sv=2022-11-02&sr=c&sig=rw4NmleSmHkirfAj2trlH59qJvteRjXCNZ7pr7uByAk%3D /opt --recursive=true
 create a   vm using azure cli
 az vm create --resource-group kml_rg_main-bf4264f0cb8245ca --name nautilus-vm --image Ubuntu2204 --size Standard_B2s --admin-username azureuser --generate-ssh-keys --storage-sku Standard_LRS --os-disk-size-gb 30 --output json
+az storage container create --name datacenter-blob-31138 --account-name datacenterstorage4859 --public-access container // creating a blob container on an existing storage account and making the container access public.
